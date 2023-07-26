@@ -1,4 +1,4 @@
-We fine-tune the AfriBERTa model on three African languages: Xhosa, Arabic, and Yoruba. We perform fine-tuning via Masked Language Modeling (MLM) followed by Named Entity Recognition (NER) tasks. Different embedding and tokenizer configurations are explored to evaluate their impact on the performance of the models. Data and models not uploaded due to space constraints.
+This repository contains code for fine-tuning the AfriBERTa model on three African languages: Xhosa, Arabic, and Yoruba. We first do continued MLM pretraining on the [AfroMAFT corpus](https://zenodo.org/record/6990611) followed by NER finetuning on the [MasakhaNER 2.0 dataset](https://github.com/masakhane-io/masakhane-ner/tree/main/MasakhaNER2.0). Different embedding and tokenizer configurations are explored to evaluate their impact on the performance of the models.
 
 ## Results
 
